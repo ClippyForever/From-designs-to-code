@@ -1,0 +1,117 @@
+.top{
+	width: 100%;
+	height: 40px;
+	top: 0px;
+	left:0px;
+	position: fixed;
+	background-color: silver; 
+	font-size: 20px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.greg{
+	position: absolute;
+	top :5px;
+	height:40px;
+	color: black;	
+	margin-left: 10px;
+}
+
+.c{	
+	margin-right: 10px;
+	position: absolute;
+	height:40px;
+	top :5px;
+	right:10px;
+   border-color: transparent;
+}
+
+.c a:active{
+	color:red;
+}
+.right{
+	color:blue;
+}
+.top a{
+	margin-left: 20px;
+}
+
+main{
+	padding :100px;
+	
+}
+
+.asd{
+	margin-top: 10px;
+	width: 250px;
+	height:30px;
+	border-radius: 3px;
+	border: 1px solid gainsboro;
+}
+
+.ton{
+	position: absolute;
+	margin-left: 3px;
+	margin-top: 10px;
+	background-image: url('https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.5.6_challenge_design_to_code/magnifying-glass.png');
+	background-repeat: no-repeat;
+	background-size: 43px 30px;
+	width:45px;
+	height:33px;
+	border: 1px solid gainsboro;
+	cursor: pointer;
+}
+
+.pnext{
+	margin-top: 50px;
+	position: static;
+	border-spacing :0;	
+	border: 1px solid gainsboro;
+	border-radius: 3px;
+}
+
+.pnext th{
+	padding :10px;	
+
+}
+
+
+.pnext th a{
+	color:black;
+}
+
+.pnext th:nth-child(2){
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+
+.result1{
+margin-top: 25px;
+}
+
+.result1 p{
+		float: left;
+		margin-right: 3px;
+		color:grey;
+		margin-bottom: 1px;
+}
+
+.result1 a{
+	color: blue;
+}
+
+.result1 a:active{
+	color:red;
+}
+.result1 p:nth-child(1){
+	clear:left;
+}
+
